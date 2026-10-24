@@ -271,3 +271,13 @@ Categories for newly uploaded papers are classified from the paper text and upda
 4. The paper repository supports PDF upload, category filtering, category overrides, and deletion.
 5. Paper comparison, literature review, and citation generation are also available.
 6. The application runs locally with FastAPI, React, Vite, FAISS, Sentence Transformers, and Ollama.
+
+## 13. Project documentation PDF
+
+The documentation source is `docs/PROJECT_CONTENT.md`. After running `npm run setup`, regenerate the PDF from the project root with:
+
+```powershell
+npm run docs
+```
+
+The generated file is `docs/AI_Research_Copilot_Documentation.pdf`.
