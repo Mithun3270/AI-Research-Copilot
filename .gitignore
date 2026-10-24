@@ -1,0 +1,48 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+**/.cache/
+.coverage
+htmlcov/
+*.pyo
+*.tmp
+
+# Node
+node_modules/
+dist/
+.runtime/
+
+# Generated application data
+data/*
+!data/.gitkeep
+research_papers/*
+!research_papers/.gitkeep
+vector_db/*
+!vector_db/.gitkeep
+extracted_text/*
+!extracted_text/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.sqlite
+*.sqlite3
+*.db
+*.index
+*.pkl
+
+# Operating system and editor caches
+.DS_Store
+Thumbs.db
+
+# Unrelated workspace assets
+stitch_agrosense_ai_precision_platform/

@@ -1,0 +1,15 @@
+{
+  "name": "ai-research-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "seed": "node scripts/seed.js",
+    "dev": "concurrently --kill-others-on-fail --names ollama,model,backend,frontend,ready --prefix \"[{name}]\" --prefix-colors yellow,cyan,green,blue,magenta \"node scripts/start-ollama.js\" \"node scripts/ensure-ollama-model.js\" \"node scripts/start-backend.js\" \"node scripts/start-frontend.js\" \"node scripts/wait-and-open.js\"",
+    "stop": "node scripts/stop.js"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.5",
+    "wait-on": "8.0.5"
+  }
+}

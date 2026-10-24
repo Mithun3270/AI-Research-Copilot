@@ -1,0 +1,50 @@
+{
+  "chunk_size": 490,
+  "overlap": 100,
+  "expected_total_vectors": 173,
+  "embedding_model_sha256": "1377E9AF0CA0B016A9F2AA584D6FC71AB3EA6804FAE21EF9FB1416E2944057AC",
+  "papers": [
+    {
+      "filename": "AIoT-Based_Digital_Monitoring_Architectures_for_Wa.pdf",
+      "sha256": "94180903B4E77B8D241E106196B86AF0B1B605051ABD6E8BFDE5124D9E3FC92C",
+      "category": "Environment",
+      "expected_chunks": 27
+    },
+    {
+      "filename": "Critical review on water quality analysis using IoT and machine learning models.pdf",
+      "sha256": "97A207ED94C5493FBA6A51DAA87A8A6FE0FE9FA40E957F54AA3E36B9F9F6BD72",
+      "category": "Environment",
+      "expected_chunks": 29
+    },
+    {
+      "filename": "Edge-AI-Powered_IoT_System_for_Real-Time_Water_Quality_Monitoring_and_Intelligent_Aquatic_Environment_Assessment.pdf",
+      "sha256": "64CD928841093D28C9AEE44877B5CFF4DD81F9DDDBB437F7F34C348FC23C5709",
+      "category": "Environment",
+      "expected_chunks": 13
+    },
+    {
+      "filename": "GAIT ANALYSIS.pdf",
+      "sha256": "29C828857CC73EA7E96DB3C4BACC70965C259734B5038183A29B18C4C58E649C",
+      "category": "Robotics And Rehabilitation",
+      "expected_chunks": 29
+    },
+    {
+      "filename": "GAIT PAPER.pdf",
+      "sha256": "40D1E4A5CB40E4B86F3933EAAAA3898AFDC5E16AE26262BBBE0CAC61ECF84C94",
+      "category": "Neuroprosthetics",
+      "expected_chunks": 27
+    },
+    {
+      "filename": "Mobile_Edge_Computing_Enhanced_Adaptive_Bitrate_Video_Delivery_With_Joint_Cache_and_Radio_Resource_Allocation.pdf",
+      "sha256": "3F8C167A67996B4C5C16C6D53D9C594AB3120F12717E7EBD5E438D2EDC64E25E",
+      "category": "Mobile Edge Computing",
+      "expected_chunks": 21
+    },
+    {
+      "filename": "technologies-14-00296.pdf",
+      "sha256": "E191A580EF15A9294FC40CE6B9248526B88A435E6B38304712D4B31C7F03D8BF",
+      "category": "Environment",
+      "expected_chunks": 27
+    }
+  ]
+}
